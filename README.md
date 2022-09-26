@@ -55,7 +55,7 @@ Required! Install git, node and yarn (or npm).
 
 ```bash
 # Clone Repository
-$ git clone https://github.com/RodrigoSaantos/nlw-esports.git
+$ git clone https://github.com/JoseGu1llardi/nlw-esports.git
 # Go to folder classroom
 $ cd web/
 # Install Dependencies
