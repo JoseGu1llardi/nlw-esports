@@ -45,7 +45,7 @@ export default function App() {
     });
 
     return () => {
-      if(getNotificationListener.current && responseNotificationListener.current) {
+      if (getNotificationListener.current && responseNotificationListener.current) {
         Notifications.removeNotificationSubscription(getNotificationListener.current);
         Notifications.removeNotificationSubscription(responseNotificationListener.current);
       }
